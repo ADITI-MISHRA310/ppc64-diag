@@ -29,7 +29,7 @@
 #include <errno.h>
 #include <getopt.h>
 #include <curses.h>
-#include <menu.h>
+#include <ncurses/menu.h>
 #include <signal.h>
 
 #include "servicelog.h"
