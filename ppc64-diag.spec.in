@@ -123,6 +123,14 @@ if [ "$2" = "2" ]; then
 fi
 
 %changelog
+* Fri Dec 5 2025 - Sathvika Vasireddy <sv@linux.ibm.com> - 2.7.11
+- Add Power11 support for diag_nvme
+- Replace custom boolean type with <stdbool.h> for C23 compatibility
+- Remove absolute include paths from build flags
+- Fix syntax error in ppc64_diag_mkrsrc script
+- Fix ifdef guard typo in platform.h
+- Minor bug fixes
+
 * Fri Sep 13 2024 - Mahesh Salgaonkar <mahesh@linux.ibm.com> - 2.7.10
 - Add support for multiple platform dumps
 - Add support for light path diagnostics for rtas events
